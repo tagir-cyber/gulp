@@ -1,0 +1,16 @@
+.section{
+  padding: var(--section-padding);
+}
+
+.container{
+    max-width: var(--container-width);
+    margin: 0 auto;
+    padding: var(--container-padding);
+    @include lt-sm {
+        padding: 0 20px;
+      }
+}
+
+.body{
+  font-family: var(--font-family);
+}

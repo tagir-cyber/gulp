@@ -1,0 +1,10 @@
+@import "./reset.scss";
+@import "./mixins.scss";
+@import "./media-queries.scss";
+@import "./vars.scss";
+@import "./layout.scss";
+
+// Разделы страницы
+@import "../sections/header/header.scss";
+@import "../sections/hiro/hiro.scss";
+@import "../sections/footer/footer.scss";
